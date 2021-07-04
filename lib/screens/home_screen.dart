@@ -6,6 +6,7 @@ class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
+
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
@@ -40,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         borderRadius: BorderRadius.circular(9.6),
                         color: Color(0x080a0928),
                       ),
-                      child: SvgPicture.asset("assets/svg/search.svg"),
+                      child: SvgPicture.asset("assets/svg/side_bar.svg"),
                     ),
                     Padding(
                       padding: EdgeInsets.only(top: 48, left: 28.8),
